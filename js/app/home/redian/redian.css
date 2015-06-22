@@ -1,0 +1,159 @@
+.gc-newsday{
+				float:left;
+				line-height:40px;
+				color:#FFFFFF;
+				font-size:13px;
+				display:block;
+				background-color:#0797ff;
+				width: 122px;
+				height: 40px;
+			}
+			.gc-newswek{
+				float:left;
+				line-height:40px;
+				color:#FFFFFF;
+				font-size:13px;
+				display:block;
+				background-color:#1b2134;
+				width: 122px;
+				height: 40px;
+			}
+			.gc-redian-imga{
+				display:block;
+				margin-left:18px;
+				float:left;
+				margin-top: 9px;
+			}
+			.gc-redian-span{
+				display:block;
+				margin-left:10px;
+				float:left;
+			}
+			.gc-redian-div-a{
+				float: left;
+				display: block;
+				width: 244px;
+				height: auto;
+			}
+			.gc-redians{
+				float:left;
+			    margin-top: 20px;
+			    width: 244px;
+			    height: auto;
+			    display: block;
+
+			}
+			.gc-i{
+		     float: left;
+		     font-size: 17px;
+		     margin-left: 17px;
+		     margin-top: 10px;
+		     display: block;
+		 	}
+			.gc-redian-span{
+			    margin-left: 14px;
+			    float: left;
+			    display: block;
+			}
+		.gc-redian-b{
+			float: left;
+		    width: 243px;
+		    height: 229px;display: block;
+		    background-color: #ffffff;
+		}
+		.gc-redian-b-a{
+		    border-bottom: solid 1px #dcdcdc;
+		    width: 243px;
+		    height: 76px;
+		    display: block;
+		}
+		.gc-redian-img{
+		    margin-left: 13px;
+		    margin-top: 10px;
+		    width: 78px;
+		    height: 52px;
+		    display: block;
+		    float:left;
+		}
+		.gc-redian-span-a{
+		    margin-top: 10px;
+		    margin-left: 11px;
+		    color: #2e3138;
+		    font-size: 12px;
+		    width: 140px;
+		    height: 38px;
+		    display: block;
+		    float: left;
+		}
+		.gc-redian-span-b{
+		    margin-left: 11px;
+		    font-size: 11px;
+		    width: 140px;
+		    height: 15px;
+		    color: #dc7441;
+		    display: block;
+		    float: left;
+		}
+		.gc-redian-c{
+			float:left;
+		    background-color: #ffffff;
+		    width: 243px;
+		    height: 173px;
+		    display: block;
+		
+		}
+		.gc-redian-c-a{
+		    width: 243px;
+		    height: 173px;
+		    display: block;
+		}
+		.gc-redian-c-a ul{
+		    float: left;
+		    width: 100%;
+		    padding: 0;
+		    margin: 0;
+		    display: block;
+		    height: auto;
+		    display: block;
+		
+		}
+		.gc-redian-c-a ul li{
+		    text-overflow: ellipsis;
+		    overflow: hidden;
+		    white-space: nowrap;
+		    margin-top: 8px;
+		    height: 14px;
+		    line-height: 14px;
+		    margin-left: 14px;
+		    color: #2e3138;
+		    font-size: 12px;
+		    width: 92%;
+		    /* padding: 0; */
+		    display: block;
+		}
+		.gc-redian-c-a-span{font-size: 15px;}
+		.gc-redian-c-b{
+		    line-height: 35px;
+		    color: #5e5e5e;
+		    width: 243px;
+		    height: 35px;
+		    display: block;
+		}
+		.gc-redian-c-span{
+		    display:block;
+		    float: right;
+		    margin-right: 17px;
+		}
+		.gc-jingxuan-img{
+		    float: left;
+		    font-size: 17px;
+		    margin-left: 17px;
+		    margin-top: 5px;
+		    display: block;
+		}
+		.gc-redian{
+			display: block;
+			float: left;
+			width: 244px;
+			height: auto;
+		}

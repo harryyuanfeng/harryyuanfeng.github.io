@@ -1,0 +1,149 @@
+a{
+	color: #fff;
+}
+.gc-navigation {
+    margin: 0 auto;
+    width: 1024px;
+    display: block;
+    height: 144px;
+    background-color: #1b2134;
+}
+
+.gc-daohang {
+    float: left;
+    margin-top: 99px;
+    display: block;
+    width: 800px;
+    height: 45px;
+    background-color: #1b2134;
+}
+
+.gc-daohang-ul {
+    line-height: 45px;
+    display: block;
+    width: 810px;
+    height: 45px;
+    background-color: #1b2134;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gc-li-a, .gc-li-b, .gc-li-c, .gc-li-d, .gc-li-e, .gc-li-f, .gc-li-g {
+    height: 45px;
+    border-left: solid 1px #838791;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Microsoft YaHei" ! important;
+    width: 115px;
+    float: left;
+    display: inline;
+}
+
+.gc-li-a {
+    border-top: solid 3px #832425;
+}
+
+.gc-li-a:hover {
+    border-left: solid 1px #832425;
+    border-left: #832425;
+    background-color: #832425;
+}
+
+.gc-li-b {
+    border-top: solid 3px #079af9;
+}
+
+.gc-li-b:hover {
+    border-left: solid 1px #079af9;
+    border-left: #079af9;
+    background-color: #079af9;
+}
+
+.gc-li-c {
+    border-top: solid 3px #cbcb24;
+}
+
+.gc-li-c:hover {
+    border-left: solid 1px #cbcb24;
+    border-left: #cbcb24;
+    background-color: #cbcb24;
+}
+
+.gc-li-d {
+    border-top: solid 3px #be6235;
+}
+
+.gc-li-d:hover {
+    border-left: solid 1px #be6235;
+    border-left: #be6235;
+    background-color: #be6235;
+}
+
+.gc-li-e {
+    border-top: solid 3px #14dc6c;
+}
+
+.gc-li-e:hover {
+    border-left: solid 1px #14dc6c;
+    border-left: #14dc6c;
+    background-color: #14dc6c;
+}
+
+.gc-li-f {
+    border-top: solid 3px #7a42e6;
+}
+
+.gc-li-f:hover {
+    border-left: solid 1px #7a42e6;
+    border-left: #7a42e6;
+    background-color: #7a42e6;
+}
+
+.gc-li-g {
+    border-top: solid 3px #d3aa13;
+    border-right: solid 1px #838791;
+}
+
+.gc-li-g:hover {
+    border-right: solid 1px #d3aa13;
+    border-left: #d3aa13;
+    background-color: #d3aa13;
+}
+
+.gc-li-b-ul {
+	z-index: 1000;
+    position: absolute;
+    margin-top: -3px;
+    padding: 0px;
+    background-color: #323950;
+    list-style-type: none;
+    display: none;
+    width: 757px;
+    height: 135px;
+}
+
+.gc-li-b-ul-li {
+    padding: 0px;
+    width: 94px;
+    height: 44px;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+
+.gc-li-b-ul-li:hover {
+    background-color: #1b2134;
+}
+
+.gc-daohang ul li:hover ul {
+    display: block;
+}
+
+.gc-bianse {
+    box-shadow: 4px 5px 10px #666;
+    width: 100%;
+    height: 4px;
+    background-color: #832425;
+}

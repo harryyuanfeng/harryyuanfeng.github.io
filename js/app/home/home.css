@@ -1,0 +1,47 @@
+.gc-daohangs {
+    background-color: #1B2134;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.gc-zuobus {
+    width: 759px;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.gc-youbus {
+    width: 244px;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.gc-bodys {
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    display: block;
+}
+
+.gc-niuniuwang {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gc-weibus {
+    border-top: solid 8px #0797ff;
+    background-color: #0d293f;
+    /* margin-left: 13%; */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 92px;
+    float: left;
+    /* margin: 0 auto; */
+}

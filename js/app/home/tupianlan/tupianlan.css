@@ -1,0 +1,88 @@
+.gc-picture {
+    margin-top: 24px;
+    float: left;
+    display: block;
+    width: 757px;
+    height: 266px;
+}
+
+.gc-picture-a {
+    float: left;
+    display: block;
+    width: 491px;
+    height: 266px;
+}
+
+.gc-picture-a:hover {
+    opacity: 0.5;
+    filter: alpha(Opacity=50);
+}
+
+.gc-picture-a-img {
+    position: absolute;
+    display: block;
+    width: 491px;
+    height: 266px;
+    z-index: -1;
+}
+
+.gc-picture-span {
+    color: #ffffff;
+    margin-top: 185px;
+    margin-left: 24px;
+    z-index: 100;
+    display: block;
+    font-size: 28px;
+    height: 75px;
+    width: 445px;
+}
+
+.gc-picture-b {
+    float: left;
+    width: 266px;
+    height: 266px;
+    display: block;
+}
+
+.gc-picture-b-a, .gc-picture-b-b, .gc-picture-b-c, .gc-picture-b-d {
+    float: left;
+    color: #ffffff;
+    font-size: 10px;
+    display: block;
+    width: 133px;
+    height: 133px;
+}
+
+.gc-picture-b-div-p {
+    padding-top: 42px;
+    padding-left: 12px;
+    margin: 0;
+    display: block;
+    width: 121px;
+    height: auto;
+}
+
+.gc-picture-b-a {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7542e6), color-stop(1, #e948a8));
+}
+
+.gc-picture-b-b {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d3a811), color-stop(1, #dfef52));
+}
+
+.gc-picture-b-c {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d00605), color-stop(1, #fa9b69));
+}
+
+.gc-picture-b-d {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #08ccd8), color-stop(1, #65fae0));
+}
+
+.gc-picture-b-div-pp {
+    padding-top: 6px;
+    padding-left: 12px;
+    margin: 0;
+    display: block;
+    width: 121px;
+    height: auto;
+}

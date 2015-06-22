@@ -1,0 +1,121 @@
+.gc-gapjisousuo {
+    margin-top: 22px;
+    display: block;
+    /*width: 267px;*/
+    height: 144px;
+    margin-bottom: 21px;
+}
+
+.gc-gapjisousuo-a {
+    display: block;
+    width: 243px;
+    height: 33px;
+}
+
+.gc-gaojisousuo-inp {
+    border: solid 1px #1b2134;
+    float: left;
+    box-shadow: 2px 2px 5px #666 inset;
+    display: block;
+    width: 192px;
+    height: 32px;
+}
+
+.gc-gaojisousuo-span {
+    float: left;
+    width: 51px;
+    height: 33px;
+    display: block;
+    background-color: #1b2134;
+}
+
+.gc-gaojisousuo-span:hover {
+    background-color: #4387b8;
+}
+
+.gc-gapjisousuo-b {
+    display: block;
+    width: 243px;
+    margin-top: 10px;
+}
+
+.gc-gaojisousuo-img {
+    margin-left: 14px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 4px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.HF_margin_left_search_lable {
+    margin-left: 9px;
+    line-height: 30px;
+
+}
+
+.HF_search_select_dropdown {
+    width: 112px;
+    height: 33px;
+    display: inline-block;
+    position: relative;
+}
+
+.HF_search_dropdown_lable {
+    width: 84px;
+    height: 30px;
+    float: left;
+    border: 1px solid #1b2134;
+    color: #8d919f;
+    line-height: 30px;
+    vertical-align: top;
+    text-indent: 7px;
+}
+
+.HF_search_dropdown_image_wrapper {
+    width: 28px;
+    height: 30px;
+    background: #1b2134;
+    float: left;
+}
+
+.HF_search_dropdown_image {
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.HF_search_select_dropdown:nth-child(even) {
+    float: right;
+}
+
+ul.HF_the_dropdown {
+    position: absolute;
+    width: 75%;
+    margin-top: 30px;
+    background-color: #f0f3f4;
+    z-index: 9;
+    border: 1px solid #1b2134;
+    text-indent: 7px;
+    height: 132px;
+    overflow: scroll;
+    display: none;
+}
+
+.HF_the_dropdown_li {
+    border-bottom: 2px solid #e3e4e8;
+}
+
+.HF_the_dropdown_li a{
+    color: #8d919f;
+}
+
+
+.HF_the_dropdown_li:hover {
+    color: #1b2134;
+}
+
+.HF_search_select_dropdown:hover ul.HF_the_dropdown {
+    display: block;
+}

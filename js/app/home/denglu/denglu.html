@@ -1,0 +1,52 @@
+<div class="gc-zongdenglu" ng-controller="dengluCtrl">
+<div class="gc-denglus" ng-hide="myVar">
+    <div class="gc-denglu-a">
+        登录牛牛网
+    </div>
+    <div class="gc-denglu-b">
+        <div class="gc-denglu-b-a">
+            <div class="gc-denglu-div">
+                <span class="gc-denglu-div-span"> <img src="img/denglutouxiang.png"></span>
+                <input type="text" class="gc-denglu-div-inp" placeholder="请输入用户名" size="22">
+            </div>
+
+            <div class="gc-denglu-div">
+                <span class="gc-denglu-div-span"> <img src="img/mimasuo.png"></span>
+                <input type="password" class="gc-denglu-div-inp" placeholder="请输入密码" size="22">
+            </div>
+            <span class="gc-denglu-span" ng-click="toggle()">登录</span>
+        </div>
+        <div class="gc-denglu-b-b">
+            <input type="checkbox">
+            <span style="padding-left: 5px;">记住我</span>
+            <span class="gc-wangjimima">忘记密码?</span>
+            <span class="gc-zhuce">免费注册<img src="img/jiantou.png"></span>
+        </div>
+
+    </div>
+</div>
+
+<div class="gc-dengluqian" ng-show="myVar">
+    <div class="gc-usercenter">
+        个人中心
+    </div>
+    <div class="gc-userpicture">
+        <div class="gc-usertouxiang"><img src="img/touxiang_03.png" class="gc-userpicture-img"/></div>
+        <div class="gc-username">郭伟9527</div>
+    </div>
+    <div class="gc-usercenter-a">
+        <ul class="gc-usercenter-ul">
+            <li class="gc-usercenter-li active"><i class="icon-settings"></i><span class="gc-usercenter-span">帐户设置</span>
+                <ul class="gc-yincang">
+                    <li>基本资料</li>
+                    <li>修改密码</li>
+                    <li>修改头像</li>
+                </ul>
+            </li>
+            <li class="gc-usercenter-li"><i class="icon-star"></i><span class="gc-usercenter-span">我的收藏</span></li>
+            <li class="gc-usercenter-li"><i class="fa fa-file-text-o"></i><span class="gc-usercenter-span">我的笔记</span>
+            </li>
+            <li class="gc-usercenter-li"><i class="icon-bubbles"></i><span class="gc-usercenter-span">问答信息</span></li>
+        </ul>
+    </div>
+</div></div>
