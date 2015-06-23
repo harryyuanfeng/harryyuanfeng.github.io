@@ -44,12 +44,13 @@ var app = angular.module('zhanguApp', ['ui.router', 'ui.load', 'zhanguApp.filter
                                     'js/app/home/tupianlan/tupianlan.js', 'js/app/home/tupianlan/tupianlan.css',
                                     'js/app/home/weibu/weibu.js', 'js/app/home/weibu/weibu.css',
                                     'js/app/home/wenzhang/wenzhang.js', 'js/app/home/wenzhang/wenzhang.css',
-                                    'js/app/home/zhuyaohangye/zhuyaohangye.js', 'js/app/home/zhuyaohangye/zhuyaohangye.css'
-                                ]);
+                                    'js/app/home/zhuyaohangye/zhuyaohangye.js', 'js/app/home/zhuyaohangye/zhuyaohangye.css']);
                             }]
                     }
-
                 })
         }
     ]
-);
+)
+    .controller('someController', function ($scope) {
+        $scope.message = 'This works in IE8 and all good browsers 看到这个证明没有问题';
+    });
