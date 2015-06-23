@@ -34,7 +34,7 @@ var app = angular.module('zhanguApp', ['ui.router', 'ui.load', 'zhanguApp.filter
                     resolve: {
                         deps: ['uiLoad',
                             function (uiLoad) {
-                                return uiLoad.load([]);
+                                return uiLoad.load(['js/app/home/home.js']);
                             }]
                     }
                 })
