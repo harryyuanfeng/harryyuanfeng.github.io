@@ -34,17 +34,7 @@ var app = angular.module('zhanguApp', ['ui.router', 'ui.load', 'zhanguApp.filter
                     resolve: {
                         deps: ['uiLoad',
                             function (uiLoad) {
-                                return uiLoad.load(['js/app/home/home.js', 'js/app/home/home.css', //'js/app/home/home.css',
-                                    'js/app/home/redian/redian.js', 'js/app/home/redian/redian.css',
-                                    'js/app/home/daohang/daohang.js', 'js/app/home/daohang/daohang.css',
-                                    'js/app/home/denglu/denglu.js', 'js/app/home/denglu/denglu.css',
-                                    'js/app/home/gaojisousuo/gaojisousuo.js', 'js/app/home/gaojisousuo/gaojisousuo.css',
-                                    'js/app/home/jingxuanyanbao/jingxuanyanbao.js', 'js/app/home/jingxuanyanbao/jingxuanyanbao.css',
-                                    'js/app/home/remenhangye/remenhangye.js', 'js/app/home/remenhangye/remenhangye.css',
-                                    'js/app/home/tupianlan/tupianlan.js', 'js/app/home/tupianlan/tupianlan.css',
-                                    'js/app/home/weibu/weibu.js', 'js/app/home/weibu/weibu.css',
-                                    'js/app/home/wenzhang/wenzhang.js', 'js/app/home/wenzhang/wenzhang.css',
-                                    'js/app/home/zhuyaohangye/zhuyaohangye.js', 'js/app/home/zhuyaohangye/zhuyaohangye.css']);
+                                return uiLoad.load([]);
                             }]
                     }
                 })

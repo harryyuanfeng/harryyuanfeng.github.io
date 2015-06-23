@@ -3,4 +3,4 @@
 /* Directives */
 // All the directives rely on jQuery.
 
-angular.module('zhanguApp.directives', ['ui.load']);
+var directiveModule = angular.module('zhanguApp.directives', ['ui.load']);
